@@ -18,7 +18,7 @@
   ],
   "rules": {
     // Possible Errors
-    "comma-dangle": [2, "never"],
+    "comma-dangle": 0,
     "no-cond-assign": 0,
     "no-console": 2,
     "no-mixed-requires": 0,
@@ -113,10 +113,13 @@
     "eol-last": 0,
     "func-names": 0,
     "func-style": 0,
-    "key-spacing": [0, {
-      "beforeColon": false,
-      "afterColon": true
-    }],
+    "key-spacing": [
+      0,
+      {
+        "beforeColon": false,
+        "afterColon": true
+      }
+    ],
     "max-nested-callbacks": 0,
     "new-cap": 2,
     "yoda": 0,
@@ -138,12 +141,27 @@
     "no-underscore-dangle": 0,
     "no-wrap-func": 2,
     "one-var": 0,
-    "operator-assignment": [2, "always"],
+    "operator-assignment": [
+      2,
+      "always"
+    ],
     "padded-blocks": 0,
-    "quotes": [0, "single"],
-    "quote-props": [2, "as-needed"],
-    "semi": [0, "always"],
-    "sort-vars": [0, "ignoreCase"],
+    "quotes": [
+      0,
+      "single"
+    ],
+    "quote-props": [
+      2,
+      "as-needed"
+    ],
+    "semi": [
+      0,
+      "always"
+    ],
+    "sort-vars": [
+      0,
+      "ignoreCase"
+    ],
     "space-after-keywords": 0,
     "space-before-blocks": 0,
     "space-in-brackets": 0,
@@ -155,7 +173,10 @@
     "wrap-regex": 0,
     // Legacy
     "max-depth": 0,
-    "max-len": [0, 240],
+    "max-len": [
+      0,
+      240
+    ],
     "max-params": 0,
     "max-statements": 0,
     "no-plusplus": 0,
@@ -174,4 +195,3 @@
     "react/wrap-multilines": 0
   }
 }
-
